@@ -1,5 +1,11 @@
 # WRF-Fire + DDSCAT-LUT 执行清单
 
+语言版本:
+- 中文: `EXEC_CHECKLIST.md`
+- English: `EXEC_CHECKLIST_EN.md`
+- README (EN): `README.md`
+- README (中文): `README_zh-CN.md`
+
 ## 0. 说明
 
 本清单用于执行 `后处理耦合` 最小可运行流程，目标是生成 `LR/LDR` 产品。  
@@ -143,4 +149,3 @@ ncdump -v LDR /home/jyx/wrf-chem/wrf_fire_ddscat_lut/output/optics_lut_product_d
 5. clip 计数:
 6. guard 计数:
 7. 异常说明:
-

@@ -1,5 +1,13 @@
 # WRF-Fire + DDSCAT LUT Python Skeleton
 
+Language:
+- English: `README.md`
+- 中文: `README_zh-CN.md`
+- Implementation Plan (EN): `IMPLEMENTATION_PLAN_EN.md`
+- Implementation Plan (中文): `IMPLEMENTATION_PLAN.md`
+- Execution Checklist (EN): `EXEC_CHECKLIST_EN.md`
+- Execution Checklist (中文): `EXEC_CHECKLIST.md`
+
 This directory contains a runnable Python skeleton for the workflow:
 
 1. Read `wrfout` from WRF/WRF-Chem.

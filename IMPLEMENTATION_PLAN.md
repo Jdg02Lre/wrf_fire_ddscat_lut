@@ -1,5 +1,11 @@
 # WRF-Fire + DDSCAT-LUT 后处理耦合实施方案
 
+语言版本:
+- 中文: `IMPLEMENTATION_PLAN.md`
+- English: `IMPLEMENTATION_PLAN_EN.md`
+- README (EN): `README.md`
+- README (中文): `README_zh-CN.md`
+
 ## 1. 目标与成功标准
 
 目标是建立一条稳定的后处理链路:
@@ -257,4 +263,3 @@ LUT 文件格式默认:
 2. 默认 shape 仅两类: `smoke`, `smoke_ash_mix`。
 3. 默认以当前 `chem_opt=7` 的 MOSAIC 4-bin 变量命名为准。
 4. 默认先实现后处理，不改变 WRF 主程序。
-
