@@ -1,10 +1,10 @@
 # WRF-Fire + DDSCAT-LUT Postprocess Coupling Implementation Plan
 
-Language versions:
-- English: `IMPLEMENTATION_PLAN_EN.md`
-- 中文: `IMPLEMENTATION_PLAN.md`
-- README (EN): `README.md`
-- README (中文): `README_zh-CN.md`
+[**English**](IMPLEMENTATION_PLAN_EN.md) | [中文](IMPLEMENTATION_PLAN.md)
+
+Related docs:
+- [README (EN)](README.md) | [README (中文)](README_zh-CN.md)
+- [Execution Checklist (EN)](EXEC_CHECKLIST_EN.md) | [执行清单 (中文)](EXEC_CHECKLIST.md)
 
 ## 1. Goal and Success Criteria
 
@@ -263,4 +263,3 @@ Milestone M2:
 2. Default shape classes: `smoke`, `smoke_ash_mix`.
 3. Default variable naming follows current `chem_opt=7` MOSAIC 4-bin outputs.
 4. This phase remains postprocess-only without modifying WRF core.
-

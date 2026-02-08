@@ -1,10 +1,10 @@
 # WRF-Fire + DDSCAT-LUT Execution Checklist
 
-Language versions:
-- English: `EXEC_CHECKLIST_EN.md`
-- 中文: `EXEC_CHECKLIST.md`
-- README (EN): `README.md`
-- README (中文): `README_zh-CN.md`
+[**English**](EXEC_CHECKLIST_EN.md) | [中文](EXEC_CHECKLIST.md)
+
+Related docs:
+- [README (EN)](README.md) | [README (中文)](README_zh-CN.md)
+- [Implementation Plan (EN)](IMPLEMENTATION_PLAN_EN.md) | [实施方案 (中文)](IMPLEMENTATION_PLAN.md)
 
 ## 0. Purpose
 
@@ -152,4 +152,3 @@ Append one record per run:
 5. Clip counters:
 6. Guard counters:
 7. Notes on anomalies:
-

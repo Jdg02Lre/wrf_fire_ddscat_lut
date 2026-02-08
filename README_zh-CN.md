@@ -1,12 +1,10 @@
 # WRF-Fire + DDSCAT LUT Python 骨架
 
-语言版本:
-- English: `README.md`
-- 中文: `README_zh-CN.md`
-- 实施方案 (EN): `IMPLEMENTATION_PLAN_EN.md`
-- 实施方案 (中文): `IMPLEMENTATION_PLAN.md`
-- 执行清单 (EN): `EXEC_CHECKLIST_EN.md`
-- 执行清单 (中文): `EXEC_CHECKLIST.md`
+[English](README.md) | [**中文**](README_zh-CN.md)
+
+关联文档:
+- [Implementation Plan (EN)](IMPLEMENTATION_PLAN_EN.md) | [实施方案 (中文)](IMPLEMENTATION_PLAN.md)
+- [Execution Checklist (EN)](EXEC_CHECKLIST_EN.md) | [执行清单 (中文)](EXEC_CHECKLIST.md)
 
 本目录包含一套可运行的 Python 骨架，用于以下流程:
 
@@ -70,4 +68,3 @@ wrf-fire-ddscat-lut run \
 - 当前 `RH`、`m_real`、`m_imag` 和形状映射使用默认占位逻辑。
 - 请把 `optics.py` 中占位实现替换为你们组 DDSCAT 数据处理规则。
 - 输出命名规则为 `optics_lut_product_d01_<time>.nc`。
-
